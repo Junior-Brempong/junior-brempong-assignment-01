@@ -46,28 +46,48 @@ h1, h2 {
 // header styles start
 
 header {
-    background-image: url(../animal-refuge/animal-refuge/animal-land-assets/image-1.jpg);
+    background-image: url(C:\Users\bremp\Documents\front-end-bootcamp\assignments\animal-refuge\animal-refuge\animal-land-assets);
     height: 100vh;
     background-size: cover;
     background-position: center;
     padding: 50px;
 }
 
-nav {
+header nav {
     display: flex;
 }
+
+header .text-nav {
+    display: flex;
+}
+
+.text-nav li{
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 6.5rem;
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
 
 header .wrapper {
     position: relative;
 }
 
+header .icon-nav {
+    margin-top: 35vh;
+}
+
+
 .fa {
-    padding: 20px;
     font-size: 40px;
     width: 60px;
     text-decoration: none;
-    margin: 5px 80px;
     color: white;
+
 }
 
 .socials-nav-bar {
