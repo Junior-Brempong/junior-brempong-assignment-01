@@ -1,4 +1,6 @@
 @use "setup";
+@use "header";
+
 
 $funky-heading-text: 'Fredericka the Great', cursive;
 $heading-text-button: 'Cormorant Garamond', serif;
@@ -43,58 +45,59 @@ h1, h2 {
     font-family: $funky-heading-text
 }
 
+
 // header styles start
 
-header {
-    background-image: url(../animal-land-assets/image-1.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 50px;
-    z-index: 10;
-}
+// header {
+//     background-image: url(../animal-land-assets/image-1.jpg);
+//     height: 100vh;
+//     background-size: cover;
+//     background-position: center;
+//     padding: 50px;
+//     z-index: 10;
+// }
 
-header nav {
-    display: flex;
-}
+// header nav {
+//     display: flex;
+// }
 
-header .text-nav {
-    display: flex;
-}
+// header .text-nav {
+//     display: flex;
+// }
 
-.text-nav li{
-    margin-right: 20px;
-}
+// .text-nav li{
+//     margin-right: 20px;
+// }
 
-h1 {
-    font-size: 6.5rem;
-    display: flex;
-    justify-content: right;
-    margin-top: 40px;
-}
-
-
-header .wrapper {
-    position: relative;
-}
-
-header .icon-nav {
-    margin-top: 35vh;
-}
+// h1 {
+//     font-size: 6.5rem;
+//     display: flex;
+//     justify-content: right;
+//     margin-top: 40px;
+// }
 
 
-.fa {
-    font-size: 40px;
-    width: 60px;
-    text-decoration: none;
-    color: white;
+// header .wrapper {
+//     position: relative;
+// }
 
-}
+// header .icon-nav {
+//     margin-top: 35vh;
+// }
 
-.socials-nav-bar {
-    position: absolute;
-    right: 0;
-}
+
+// .fa {
+//     font-size: 40px;
+//     width: 60px;
+//     text-decoration: none;
+//     color: white;
+
+// }
+
+// .socials-nav-bar {
+//     position: absolute;
+//     right: 0;
+// }
 
 // header styles end
 
@@ -134,7 +137,7 @@ header .icon-nav {
 
 .our-friends {
     background-color: #c3d3cb;
-    height: 600px;
+    height: 650px;
     .our-friends-text {
         text-align: center;
         font-family: $funky-heading-text;
@@ -150,7 +153,16 @@ header .icon-nav {
         padding: 25px;
     }
 
-    }
+    }  
+
+}
+
+.our-friends h2{
+    padding-top: 55px;
+}  
+
+.our-friends .img-container {
+    margin-top: 5%;
 }
 
 // meet our friends designs end
@@ -273,6 +285,6 @@ footer{
     text-align: center;
 }
 
-* {
-    border: 1px solid pink;
-}
+// * {
+//     border: 1px solid pink;
+// }
