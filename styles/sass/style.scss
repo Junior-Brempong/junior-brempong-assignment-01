@@ -46,63 +46,8 @@ h1, h2 {
 }
 
 
-// header styles start
 
-// header {
-//     background-image: url(../animal-land-assets/image-1.jpg);
-//     height: 100vh;
-//     background-size: cover;
-//     background-position: center;
-//     padding: 50px;
-//     z-index: 10;
-// }
-
-// header nav {
-//     display: flex;
-// }
-
-// header .text-nav {
-//     display: flex;
-// }
-
-// .text-nav li{
-//     margin-right: 20px;
-// }
-
-// h1 {
-//     font-size: 6.5rem;
-//     display: flex;
-//     justify-content: right;
-//     margin-top: 40px;
-// }
-
-
-// header .wrapper {
-//     position: relative;
-// }
-
-// header .icon-nav {
-//     margin-top: 35vh;
-// }
-
-
-// .fa {
-//     font-size: 40px;
-//     width: 60px;
-//     text-decoration: none;
-//     color: white;
-
-// }
-
-// .socials-nav-bar {
-//     position: absolute;
-//     right: 0;
-// }
-
-// header styles end
-
-
-
+//main section begins
 
 // suzies story section designs begin
 
@@ -176,8 +121,23 @@ h1, h2 {
 }
     .ul-wrapper {
         display: flex;
-        justify-content: space-evenly;
+        height: inherit;
+        align-items: center;
     }
+
+.mid-banner .wrapper{
+    height: 100%;
+}
+
+.mid-banner li{
+        text-align: center;
+}
+
+    .mid-banner img {
+    display: inline-flex;
+    height: 20%;
+    width: 20%;
+}    
 
 // mid banner styles end
 
@@ -254,8 +214,8 @@ h1, h2 {
     text-align: center;
     width: 60%;
         p{
-            font-family: $body-text;
-            font-size: 1.1rem;
+        font-family: $body-text;
+        font-size: 1.1rem;
         }
 }
 
@@ -277,6 +237,8 @@ h1, h2 {
 }
 // stay updated section style ends
 
+//main section ends
+
 // footer styles begin
 
 footer{
@@ -288,3 +250,9 @@ footer{
 // * {
 //     border: 1px solid pink;
 // }
+
+// LEFT TO DO:
+
+// Fix background image for header
+// Center spacing of the form in footer
+// Media Queries!
