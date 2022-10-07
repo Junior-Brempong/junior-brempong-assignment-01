@@ -431,6 +431,56 @@ header .wrapper {
   margin-top: 20px;
 }
 
+.stay-updated {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stay-updated .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.stay-updated-form {
+  text-align: center;
+  width: 60%;
+}
+.stay-updated-form p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+#email-address {
+  width: 64%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.stay-updated button {
+  background-color: black;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px 35px;
+}
+
+.contact-us-bottom {
+  text-align: right;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 * {
   border: 1px solid pink;
 }
