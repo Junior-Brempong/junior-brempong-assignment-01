@@ -368,12 +368,67 @@ header .wrapper {
           justify-content: space-evenly;
 }
 
-section .first-row {
+.first-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.text-box-one {
+  width: 50%;
+  background-color: darkgrey;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 18px;
+}
+
+.zebra-image {
+  width: 50%;
+}
+
+.second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.kitty-hi-5 {
+  width: 50%;
+}
+
+.text-box-two {
+  width: 50%;
+  background-color: darkgrey;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 18px;
+}
+
+.blog-posts h3 {
+  color: #152D20;
+  font-size: 1.94rem;
+}
+
+.blog-posts button {
+  background-color: #152D20;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px 20px;
+  margin-top: 20px;
 }
 
 * {
