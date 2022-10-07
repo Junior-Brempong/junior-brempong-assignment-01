@@ -226,14 +226,6 @@ html {
   overflow: hidden;
 }
 
-header {
-  background-image: url(/animal-land-assets/image-1.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-}
-
 html {
   font-size: 125%;
   font-family: "Cormorant Garamond", serif;
@@ -272,8 +264,8 @@ h1, h2 {
   font-family: "Fredericka the Great", cursive;
 }
 
-.full-bleed {
-  background-image: url(/styles/animal-land-assets/image-1.jpg);
+header {
+  background-image: url('/styles/animal-land-assets/image-1.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;

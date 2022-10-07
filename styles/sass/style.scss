@@ -1,5 +1,4 @@
 @use "setup";
-@use "header";
 
 $funky-heading-text: 'Fredericka the Great', cursive;
 $heading-text-button: 'Cormorant Garamond', serif;
@@ -44,7 +43,7 @@ h1, h2 {
     font-family: $funky-heading-text
 }
 
-.full-bleed {
+header .header {
     background-image: url(/styles/animal-land-assets/image-1.jpg);
     height: 100vh;
     background-size: cover;
