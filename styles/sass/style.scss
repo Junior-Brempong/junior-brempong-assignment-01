@@ -1,4 +1,5 @@
 @use "setup";
+@use "header";
 
 $funky-heading-text: 'Fredericka the Great', cursive;
 $heading-text-button: 'Cormorant Garamond', serif;
@@ -9,20 +10,38 @@ html {
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Fredericka the Great', cursive;
   font-family: 'Roboto', sans-serif;
-
-  text-decoration: none;
-  list-style-type: none;
+  color: white;
+  background-color: #152d20;
 }
 
 
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .wrapper {
-    max-width: 1280px;
+    max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 
 
-
 h1, h2 {
     font-family: $funky-heading-text
-  }
+}
 
