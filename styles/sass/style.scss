@@ -1,6 +1,28 @@
+@use "setup";
+
+$funky-heading-text: 'Fredericka the Great', cursive;
+$heading-text-button: 'Cormorant Garamond', serif;
+$body-text: 'Roboto', sans-serif;
+
 html {
+  font-size: 125%;  
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Fredericka the Great', cursive;
   font-family: 'Roboto', sans-serif;
+
+  text-decoration: none;
+  list-style-type: none;
 }
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+h1, h2 {
+    font-family: $funky-heading-text
+  }
 
