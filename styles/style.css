@@ -226,107 +226,6 @@ html {
   overflow: hidden;
 }
 
-header {
-  background-image: url(../animal-land-assets/image-1.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-}
-
-header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header .text-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.text-nav li {
-  margin-right: 20px;
-}
-
-h1 {
-  font-size: 6.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  margin-top: 40px;
-}
-
-header .wrapper {
-  position: relative;
-}
-
-header .icon-nav {
-  margin-top: 35vh;
-}
-
-header .icon-nav li {
-  margin: 15%;
-}
-
-.fa {
-  font-size: 40px;
-  width: 60px;
-  text-decoration: none;
-  color: white;
-}
-
-.socials-nav-bar {
-  position: absolute;
-  right: 0;
-}
-
-@media (max-width: 1085px) {
-  .blog-posts img {
-    height: 100%;
-  }
-}
-@media (max-width: 1008px) {
-  .bottom-nav-wrapper {
-    line-height: 180%;
-  }
-}
-@media (max-width: 865px) {
-  .text-nav li {
-    display: none;
-  }
-  h1 {
-    font-size: 3rem;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-  }
-  .icon-nav li {
-    display: none;
-  }
-  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
-    position: relative;
-    padding-left: 1.25em;
-  }
-  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 3rem;
-    height: 0.4rem;
-    background: white;
-  }
-  .sandwhich-menu-02 {
-    top: 1.5rem;
-  }
-  .sandwhich-menu-03 {
-    top: 3rem;
-  }
-}
 html {
   font-size: 125%;
   font-family: "Cormorant Garamond", serif;
@@ -363,6 +262,61 @@ img {
 
 h1, h2 {
   font-family: "Fredericka the Great", cursive;
+}
+
+header {
+  background-image: url(./animal-land-assets/image-1.jpg);
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 50px 100px 50px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .text-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-nav li {
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 40px;
+}
+
+header .wrapper {
+  position: relative;
+}
+
+header .icon-nav li {
+  margin: 15%;
+}
+
+.fa {
+  font-size: 40px;
+  width: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.socials-nav-bar {
+  position: absolute;
+  right: 0;
 }
 
 .suzies-story {
@@ -576,12 +530,109 @@ footer {
   text-align: center;
 }
 
-* {
-  border: 1px solid pink;
+@media (max-width: 1085px) {
+  .blog-posts img {
+    height: 100%;
+  }
 }
-
 @media (max-width: 1008px) {
   .our-friends {
     height: 500px;
   }
+  .bottom-nav-wrapper {
+    line-height: 180%;
+  }
+}
+@media (max-width: 865px) {
+  .text-nav li {
+    display: none;
+  }
+  h1 {
+    font-size: 3rem;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .icon-nav li {
+    display: none;
+  }
+  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+    position: relative;
+    padding-left: 1.25em;
+  }
+  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    height: 0.4rem;
+    background: white;
+  }
+  .sandwhich-menu-02 {
+    top: 1.5rem;
+  }
+  .sandwhich-menu-03 {
+    top: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .suzies-story {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  .suzies-story button {
+    margin: 1rem 12rem;
+  }
+  .suzies-story img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .suzies-story button {
+    margin: 0 auto;
+  }
+  .our-friends .our-friends-text {
+    margin-top: 0;
+  }
+  h2.our-friends-text {
+    padding-top: 30px;
+  }
+  .parrot-img {
+    display: none;
+  }
+  .our-friends ul li {
+    width: calc(50% - 20px);
+    padding: 25px;
+  }
+  .mid-banner {
+    height: 100%;
+  }
+  .mid-banner .ul-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mid-banner li {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem;
+  }
+}
+* {
+  border: 1px solid pink;
 }

@@ -1,9 +1,9 @@
 header {
-    background-image: url(../animal-land-assets/image-1.jpg);
-    height: 100vh;
+    background-image: url(./animal-land-assets/image-1.jpg);
+    height: 110vh;
     background-size: cover;
     background-position: center;
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
 }
 
 header nav {
@@ -30,9 +30,6 @@ header .wrapper {
     position: relative;
 }
 
-header .icon-nav {
-    margin-top: 35vh;
-}
 
 header .icon-nav li {
         margin: 15%;

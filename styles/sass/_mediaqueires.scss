@@ -5,9 +5,9 @@
 }
 
 @media (max-width: 1008px) {
-    // .our-friends {
-    //     height: 500px;
-    // }
+    .our-friends {
+        height: 500px;
+    }
 
     .bottom-nav-wrapper {
         line-height: 180%;
@@ -49,3 +49,49 @@
 
 }
 
+@media (max-width: 800px){
+    .suzies-story {
+        flex-direction: column;
+        height: 100%;
+    }
+    .suzies-story button{
+        margin: 1rem 12rem;
+    }
+
+    .suzies-story img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .suzies-story button{
+        margin: 0 auto;
+    }
+
+    .our-friends .our-friends-text{
+        margin-top: 0;
+    }
+    h2.our-friends-text {
+        padding-top: 30px;
+    }
+    .parrot-img{
+        display: none;
+    }
+    .our-friends ul li {
+        width: calc(50% - 20px);
+        padding: 25px;
+    }
+    .mid-banner{
+        height: 100%;
+    }
+    .mid-banner .ul-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mid-banner li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+}

@@ -1,5 +1,13 @@
+@use "typography";
 @use "setup";
+@use "foundations";
 @use "header";
+@use "suzies-story";
+@use "our-friends";
+@use "mid-banner";
+@use "blog-post";
+@use "stay-updated";
+@use "footer";
 @use "mediaqueires";
 
 
@@ -7,44 +15,44 @@ $funky-heading-text: 'Fredericka the Great', cursive;
 $heading-text-button: 'Cormorant Garamond', serif;
 $body-text: 'Roboto', sans-serif;
 
-html {
-  font-size: 125%;  
-  font-family: 'Cormorant Garamond', serif;
-  font-family: 'Fredericka the Great', cursive;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: #152d20;
-}
+// html {
+//   font-size: 125%;  
+//   font-family: 'Cormorant Garamond', serif;
+//   font-family: 'Fredericka the Great', cursive;
+//   font-family: 'Roboto', sans-serif;
+//   color: white;
+//   background-color: #152d20;
+// }
 
-h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
+// h1, h2, h3, p, ul {
+//     margin: 0;
+//     padding: 0;
+// }
 
-ul {
-    list-style: none;
-}
+// ul {
+//     list-style: none;
+// }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+// a {
+//     text-decoration: none;
+//     color: inherit;
+// }
 
-img {
-    max-width: 100%;
-    display: block;
-}
+// img {
+//     max-width: 100%;
+//     display: block;
+// }
 
-.wrapper {
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-}
+// .wrapper {
+//     max-width: 1200px;
+//     width: 90%;
+//     margin: 0 auto;
+// }
 
 
-h1, h2 {
-    font-family: $funky-heading-text
-}
+// h1, h2 {
+//     font-family: $funky-heading-text
+// }
 
 
 
@@ -52,28 +60,28 @@ h1, h2 {
 
 // suzies story section designs begin
 
-.suzies-story {
-    display: flex;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    .img-container {
-        flex-basis: 100%;
-    }
-    h2 {
-        font-size: 2.8rem;
-    }
-    .text-container {
-        margin-left: 6%;
-    }
-    button {
-        background-color: white;
-        color: black;
-        font-family: $heading-text-button;
-        padding: 10px 20px;
-        margin-top: 20px;
-     }
-}
+// .suzies-story {
+//     display: flex;
+//     height: 400px;
+//     align-items: center;
+//     justify-content: center;
+//     .img-container {
+//         flex-basis: 100%;
+//     }
+//     h2 {
+//         font-size: 2.8rem;
+//     }
+//     .text-container {
+//         margin-left: 6%;
+//     }
+//     button {
+//         background-color: white;
+//         color: black;
+//         font-family: $heading-text-button;
+//         padding: 10px 20px;
+//         margin-top: 20px;
+//      }
+// }
 
 // suzies stories design end
 
@@ -81,173 +89,173 @@ h1, h2 {
 
 // meet our friends design starts
 
-.our-friends {
-    background-color: #c3d3cb;
-    height: 650px;
-    .our-friends-text {
-        text-align: center;
-        font-family: $funky-heading-text;
-        font-size: 2.7rem;
-        margin-top: 60px;
-    }
-    ul {
-        display: flex;
-        justify-content: center;
+// .our-friends {
+//     background-color: #c3d3cb;
+//     height: 650px;
+//     .our-friends-text {
+//         text-align: center;
+//         font-family: $funky-heading-text;
+//         font-size: 2.7rem;
+//         margin-top: 60px;
+//     }
+//     ul {
+//         display: flex;
+//         justify-content: center;
 
-    li {
-        width: calc( (100% / 3) - 20px);
-        padding: 25px;
-    }
+//     li {
+//         width: calc( (100% / 3) - 20px);
+//         padding: 25px;
+//     }
 
-    }  
+//     }  
 
-}
+// }
 
-.our-friends h2{
-    padding-top: 55px;
-}  
+// .our-friends h2{
+//     padding-top: 55px;
+// }  
 
-.our-friends .img-container {
-    margin-top: 5%;
-}
+// .our-friends .img-container {
+//     margin-top: 5%;
+// }
 
 // meet our friends designs end
 
 // mid banner styles start
 
-.mid-banner {
-    height: 250px;
-    display: flex;
-    align-items: center;
-}
-    .ul-wrapper {
-        display: flex;
-        height: inherit;
-        align-items: center;
-    }
+// .mid-banner {
+//     height: 250px;
+//     display: flex;
+//     align-items: center;
+// }
+//     .ul-wrapper {
+//         display: flex;
+//         height: inherit;
+//         align-items: center;
+//     }
 
-.mid-banner .wrapper{
-    height: 100%;
-}
+// .mid-banner .wrapper{
+//     height: 100%;
+// }
 
-.mid-banner li{
-        text-align: center;
-}
+// .mid-banner li{
+//         text-align: center;
+// }
 
-    .mid-banner img {
-    display: inline-flex;
-    height: 20%;
-    width: 20%;
-}    
+//     .mid-banner img {
+//     display: inline-flex;
+//     height: 20%;
+//     width: 20%;
+// }    
 
 // mid banner styles end
 
 // blog post styles being
 
     
-.first-row{
-    display: flex;
-    flex-wrap: wrap;
-    }
+// .first-row{
+//     display: flex;
+//     flex-wrap: wrap;
+//     }
 
-.text-box-one {
-    width: 50%;
-    background-color: darkgrey;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 18px;
-    }
+// .text-box-one {
+//     width: 50%;
+//     background-color: darkgrey;
+//     align-content: center;
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 18px;
+//     }
 
-.zebra-image{
-    width: 50%;
-}
+// .zebra-image{
+//     width: 50%;
+// }
 
-.second-row {
-    display: flex;
-    flex-wrap: wrap;    
-}
+// .second-row {
+//     display: flex;
+//     flex-wrap: wrap;    
+// }
 
-.kitty-hi-5 {
-    width: 50%;
-}
+// .kitty-hi-5 {
+//     width: 50%;
+// }
 
-.text-box-two {
-    width: 50%;
-    background-color: darkgrey;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 18px;
-}
+// .text-box-two {
+//     width: 50%;
+//     background-color: darkgrey;
+//     align-content: center;
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 18px;
+// }
 
 
-.blog-posts h3{
-    color: #152D20;
-    font-size: 1.94rem;
-}
+// .blog-posts h3{
+//     color: #152D20;
+//     font-size: 1.94rem;
+// }
 
-.blog-posts button{
-    background-color: #152D20;
-    color: white;
-    font-family: $heading-text-button;
-    padding: 10px 20px;
-    margin-top: 20px;
-}
+// .blog-posts button{
+//     background-color: #152D20;
+//     color: white;
+//     font-family: $heading-text-button;
+//     padding: 10px 20px;
+//     margin-top: 20px;
+// }
 
 // blog post styles end
 
 
 // stay updated section styles start
 
-.stay-updated{
-    height: 200px;
-    display: flex;
-    align-items: center;
-}
+// .stay-updated{
+//     height: 200px;
+//     display: flex;
+//     align-items: center;
+// }
 
-.stay-updated .wrapper{
-    display: flex;
-    justify-content: space-around;
-}
+// .stay-updated .wrapper{
+//     display: flex;
+//     justify-content: space-around;
+// }
 
-.stay-updated-form {
-    text-align: center;
-    width: 60%;
-    margin-left: 5%;
-        p{
-        font-family: $body-text;
-        font-size: 1.1rem;
-        }
-}
+// .stay-updated-form {
+//     text-align: center;
+//     width: 60%;
+//     margin-left: 5%;
+//         p{
+//         font-family: $body-text;
+//         font-size: 1.1rem;
+//         }
+// }
 
-#email-address {
-    width: 64%;
-    padding: 8px;
-    margin-top: 5px;
-}
+// #email-address {
+//     width: 64%;
+//     padding: 8px;
+//     margin-top: 5px;
+// }
 
-.stay-updated button{
-    background-color: black;
-    color: white;
-    font-family: $heading-text-button;
-    padding: 10px 35px;
-}
+// .stay-updated button{
+//     background-color: black;
+//     color: white;
+//     font-family: $heading-text-button;
+//     padding: 10px 35px;
+// }
 
-.contact-us-bottom {
-    text-align: right;
-}
+// .contact-us-bottom {
+//     text-align: right;
+// }
 // stay updated section style ends
 
 //main section ends
 
 // footer styles begin
 
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
+// footer{
+//     background-color: black;
+//     color: white;
+//     text-align: center;
+// }
 
 * {
     border: 1px solid pink;
@@ -256,12 +264,45 @@ footer{
 // LEFT TO DO:
 
 // Fix background image for header
-// Center spacing of the form in footer
+
+// Why is the below media quiery not working the partials file??
+
 // Media Queries!
 
 
-@media (max-width: 1008px) {
-    .our-friends {
-        height: 500px;
-    }
-}
+
+// @media (max-width: 800px){
+//     .suzies-story {
+//         flex-direction: column;
+//         height: 100%;
+//     }
+//     .suzies-story button{
+//         margin: 1rem 12rem;
+//     }
+//     // .our-friends .our-friends-text{
+    //     margin-top: 0;
+    // }
+    // .our-friends h2 {
+    //     padding-top: 30px;
+    // }
+    // .parrot-img{
+    //     display: none;
+    // }
+    // .our-friends ul li {
+    //     width: calc(50% - 20px);
+    //     padding: 25px;
+    // }
+    // .mid-banner{
+    //     height: 100%;
+    // }
+    // .mid-banner .ul-wrapper {
+    //     flex-direction: column;
+    //     justify-content: center;
+    //   }
+    //   .mid-banner li {
+    //     text-align: center;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     margin: 1rem;
+    //   }
