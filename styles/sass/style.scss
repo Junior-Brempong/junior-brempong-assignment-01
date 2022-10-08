@@ -1,6 +1,6 @@
 @use "setup";
 @use "header";
-@use "mediaqueires"
+@use "mediaqueires";
 
 
 $funky-heading-text: 'Fredericka the Great', cursive;
@@ -214,6 +214,7 @@ h1, h2 {
 .stay-updated-form {
     text-align: center;
     width: 60%;
+    margin-left: 5%;
         p{
         font-family: $body-text;
         font-size: 1.1rem;

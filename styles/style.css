@@ -232,7 +232,6 @@ header {
   background-size: cover;
   background-position: center;
   padding: 50px;
-  z-index: 10;
 }
 
 header nav {
@@ -268,6 +267,10 @@ header .wrapper {
 
 header .icon-nav {
   margin-top: 35vh;
+}
+
+header .icon-nav li {
+  margin: 15%;
 }
 
 .fa {
@@ -501,6 +504,7 @@ h1, h2 {
 .stay-updated-form {
   text-align: center;
   width: 60%;
+  margin-left: 5%;
 }
 .stay-updated-form p {
   font-family: "Roboto", sans-serif;
