@@ -249,12 +249,19 @@ footer{
     text-align: center;
 }
 
-// * {
-//     border: 1px solid pink;
-// }
+* {
+    border: 1px solid pink;
+}
 
 // LEFT TO DO:
 
 // Fix background image for header
 // Center spacing of the form in footer
 // Media Queries!
+
+
+@media (max-width: 1008px) {
+    .our-friends {
+        height: 500px;
+    }
+}

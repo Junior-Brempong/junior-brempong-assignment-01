@@ -285,6 +285,48 @@ header .icon-nav li {
   right: 0;
 }
 
+@media (max-width: 1085px) {
+  .blog-posts img {
+    height: 100%;
+  }
+}
+@media (max-width: 1008px) {
+  .bottom-nav-wrapper {
+    line-height: 180%;
+  }
+}
+@media (max-width: 865px) {
+  .text-nav li {
+    display: none;
+  }
+  h1 {
+    font-size: 3rem;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .icon-nav li {
+    display: none;
+  }
+  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+    position: relative;
+    padding-left: 1.25em;
+  }
+  .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    height: 0.4rem;
+    background: white;
+  }
+  .sandwhich-menu-02 {
+    top: 1.5rem;
+  }
+  .sandwhich-menu-03 {
+    top: 3rem;
+  }
+}
 html {
   font-size: 125%;
   font-family: "Cormorant Garamond", serif;
@@ -532,4 +574,14 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+* {
+  border: 1px solid pink;
+}
+
+@media (max-width: 1008px) {
+  .our-friends {
+    height: 500px;
+  }
 }
