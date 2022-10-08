@@ -64,7 +64,8 @@
     }
 
     .suzies-story button{
-        margin: 0 auto;
+        margin: 0px 35%;
+        width: 25%;
     }
 
     .our-friends .our-friends-text{
@@ -93,5 +94,19 @@
         flex-direction: column;
         align-items: center;
         margin: 1rem;
+    }
+
+    .blog-posts .first-row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .zebra-image {
+        order: -1;
+    }
+
+    .blog-posts .second-row {
+        flex-direction: column;
+        align-content: center;
     }
 }

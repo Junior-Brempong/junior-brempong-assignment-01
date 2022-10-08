@@ -591,7 +591,8 @@ footer {
     margin: 0 auto;
   }
   .suzies-story button {
-    margin: 0 auto;
+    margin: 0px 35%;
+    width: 25%;
   }
   .our-friends .our-friends-text {
     margin-top: 0;
@@ -631,6 +632,27 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     margin: 1rem;
+  }
+  .blog-posts .first-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .zebra-image {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .blog-posts .second-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 * {
