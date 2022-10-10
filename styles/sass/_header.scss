@@ -6,6 +6,8 @@ header {
     padding: 50px 50px 100px 50px;
 }
 
+// Text nav starts
+
 header nav {
     display: flex;
 }
@@ -17,6 +19,8 @@ header .text-nav {
 .text-nav li{
     margin-right: 20px;
 }
+
+// text nav ends
 
 h1 {
     font-size: 6.5rem;
@@ -30,6 +34,7 @@ header .wrapper {
     position: relative;
 }
 
+// Social media navigation starts
 
 header .icon-nav li {
         margin: 15%;
@@ -47,3 +52,5 @@ header .icon-nav li {
     position: absolute;
     right: 0;
 }
+
+// Social media navigation ends
